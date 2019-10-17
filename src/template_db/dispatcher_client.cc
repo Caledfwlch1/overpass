@@ -59,8 +59,10 @@ Dispatcher_Client::Dispatcher_Client
 		       4*sizeof(uint32)));
 
   // initialize the socket for the client
-  socket.open(db_dir + dispatcher_share_name_);
-  std::string socket_name = db_dir + dispatcher_share_name_;
+//  socket.open(db_dir + dispatcher_share_name_);
+  socket.open("/tmp" + dispatcher_share_name_);
+//  std::string socket_name = db_dir + dispatcher_share_name_;
+  std::string socket_name = "/tmp" + dispatcher_share_name_;
 
   pid_t pid = getpid();
   if (send(socket.descriptor(), &pid, sizeof(pid_t), 0) == -1)

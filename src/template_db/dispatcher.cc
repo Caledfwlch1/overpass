@@ -52,7 +52,8 @@ Dispatcher_Socket::Dispatcher_Socket
     db_dir = getcwd() + db_dir_;
 
   // initialize the socket for the server
-  socket_name = db_dir + dispatcher_share_name;
+//  socket_name = db_dir + dispatcher_share_name;
+  socket_name = "/tmp" + dispatcher_share_name;
   socket.open(socket_name);
 }
 
