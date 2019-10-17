@@ -1,0 +1,12 @@
+<osm-script>
+  <query into="_" type="relation">
+    <has-kv k="key" modv="" v="value"/>
+    <bbox-query s="50" w="5" n="55" e="10"/>
+    <id-query type="relation" ref="496"/>
+    <recurse type="relation-relation"/>
+    <around radius="100"/>
+    <user type="relation" name="Username"/>
+    <user type="relation" uid="8128"/>
+    <newer than="2011-02-03T04:05:06Z"/>
+  </query>
+</osm-script>

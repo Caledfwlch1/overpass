@@ -1,0 +1,13 @@
+<osm-script>
+  <query into="out" type="node">
+    <item from="in" into="_"/>
+    <has-kv k="key" modv="" v="value"/>
+    <bbox-query s="50" w="5" n="55" e="10"/>
+    <id-query type="node" ref="496"/>
+    <recurse type="way-node"/>
+    <around radius="100"/>
+    <user type="node" name="Username"/>
+    <user type="node" uid="8128"/>
+    <newer than="2011-02-03T04:05:06Z"/>
+  </query>
+</osm-script>

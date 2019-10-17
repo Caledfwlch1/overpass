@@ -1,0 +1,5 @@
+<osm-script>
+  <query into="_" type="way">
+    <bbox-query s="50" w="7" n="51" e="8"/>
+  </query>
+</osm-script>

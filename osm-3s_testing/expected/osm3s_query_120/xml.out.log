@@ -1,0 +1,5 @@
+<osm-script>
+  <query into="_" type="relation">
+    <bbox-query s="50" w="7" n="51" e="8"/>
+  </query>
+</osm-script>

@@ -1,0 +1,3 @@
+<osm-script>
+  <print e="" from="in" geometry="skeleton" ids="yes" limit="496" mode="ids_only" n="" order="quadtile" s="" w=""/>
+</osm-script>

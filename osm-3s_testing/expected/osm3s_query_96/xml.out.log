@@ -1,0 +1,3 @@
+<osm-script>
+  <recurse type="relation-way"/>
+</osm-script>

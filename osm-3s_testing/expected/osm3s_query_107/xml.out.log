@@ -1,0 +1,6 @@
+<osm-script>
+  <union into="_">
+    <item from="_" into="_"/>
+    <recurse type="way-node"/>
+  </union>
+</osm-script>

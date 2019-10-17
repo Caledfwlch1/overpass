@@ -1,0 +1,5 @@
+<osm-script>
+  <query into="_" type="node">
+    <user type="node" name="A user name @&lt;&gt;"/>
+  </query>
+</osm-script>

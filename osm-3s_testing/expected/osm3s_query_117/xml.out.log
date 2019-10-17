@@ -1,0 +1,5 @@
+<osm-script>
+  <query into="_" type="way">
+    <around radius="100"/>
+  </query>
+</osm-script>
